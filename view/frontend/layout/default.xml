@@ -10,6 +10,11 @@
                                 <item name="component" xsi:type="string">
                                     Ozzytop_FreeShippingPromo/js/free-shipping-banner
                                 </item>
+                                <item name="config" xsi:type="array">
+                                    <item name="message" xsi:type="string">
+                                        Free Shipping Message from Xml
+                                    </item>
+                                </item>
                             </item>
                         </item>
                     </argument>
