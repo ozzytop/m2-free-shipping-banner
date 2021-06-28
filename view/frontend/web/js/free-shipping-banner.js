@@ -10,7 +10,8 @@ define([
 
         // Properties could be like variables of the component
         defaults: {
-            message: 'Free Shipping Message!'
+            message: 'Free Shipping Message',
+            template: 'Ozzytop_FreeShippingPromo/free-shipping-banner'
         },
 
         // This is called when the component is initialized

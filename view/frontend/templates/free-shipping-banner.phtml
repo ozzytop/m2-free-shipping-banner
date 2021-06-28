@@ -4,7 +4,7 @@
 
 <!-- we have to bind the component to the DOM, with data-bind="scope [name of compoenent]" -->
 <div id="free-shipping-banner" data-bind="scope: 'free-shipping-banner'">
-    <div data-bind="text: message"></div>
+    <!-- ko template: getTemplate() -->  <!-- /ko -->
 </div>
 <script type="text/x-magento-init">
     {
