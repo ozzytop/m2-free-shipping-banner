@@ -10,7 +10,7 @@ define([
 
         // Properties could be like variables of the component
         defaults: {
-            message: 'Free Shipping Message'
+            message: 'Free Shipping Message!'
         },
 
         // This is called when the component is initialized

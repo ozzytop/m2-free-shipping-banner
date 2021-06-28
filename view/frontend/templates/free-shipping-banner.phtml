@@ -1,8 +1,10 @@
 <?php
 /* @var $block Magento\Framework\View\Element\Template */
 ?>
-<div id="free-shipping-banner">
-    Free Shipping Banner
+
+<!-- we have to bind the component to the DOM, with data-bind="scope [name of compoenent]" -->
+<div id="free-shipping-banner" data-bind="scope: 'free-shipping-banner'">
+    <div data-bind="text: message"></div>
 </div>
 <script type="text/x-magento-init">
     {
