@@ -49,6 +49,17 @@ speficic property
 
 ```require('uiRegistry').get('free-shipping-banner').remove('welcome');```
 
+Change value of property:
+
+```require('uiRegistry').get('free-shipping-banner').subtotal(40);```
 
 
+## Tracks instead adding ko observables
 
+When you use a UiCompoenent, you can set the properties as observables calling ko. You will 
+have to add ko as a dependency and convert all the properties in functions.
+
+Instead doing that, we can use "tracks" as a properrty and add each property that we want to 
+be an observable. And there is no need to convert the observables as functions around the component.
+
+Track is a sintactic sugar, provided by knockout plugin called ES5
