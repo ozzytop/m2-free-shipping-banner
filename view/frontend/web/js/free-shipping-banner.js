@@ -42,7 +42,11 @@ define([
 
             });
 
-
+            cart.subscribe(function(){
+                if(!_.isEmpty(cart) && !_.isUndefined(cart.subtotalAmount)){
+                    self.subtotal = parseFloat(cart.subtotalAmount);
+                }
+            })
 
 
             //window.setTimeout(function(){
